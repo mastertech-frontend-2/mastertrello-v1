@@ -30,3 +30,40 @@ header img {
     color: white;
     font-weight: bold;
 }
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo section {
+    width: 70%;
+}
+
+.conteudo section div {
+    display: flex;
+    align-items: baseline;
+}
+
+.branco { 
+color: white;
+}
+
+.conteudo section div p {
+    height: fit-content;
+
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.borda-esquerda {
+    border-left: 0.5px solid lightgrey;
+}
+
+.conteudo aside {
+    width: 30%;
+}
+
+aside {
+    background-color: white;
+    height: 100%;
+}
