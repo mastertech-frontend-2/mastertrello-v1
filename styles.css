@@ -63,6 +63,28 @@ color: white;
     width: 30%;
 }
 
+main {
+    padding: 15px;
+
+    display: flex;
+}
+
+.lista {
+    background-color: lightgray;
+
+    width: 20%;
+}
+
+.lista-vazia {
+    background-color: rgba(78, 78, 78, 0.623);
+}
+
+.lista, .lista-vazia {
+    border-radius: 10px;
+
+    margin: 0 15px;
+}
+
 aside {
     background-color: white;
     height: 100%;
