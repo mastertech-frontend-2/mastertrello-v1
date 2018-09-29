@@ -23,11 +23,14 @@ header img {
 }
 
 .item-header {
+    height: 35px;
+    
     background-color: rgba(255, 255, 255, 0.623);
+    color: white;
+    
     border: none;
     border-radius: 10px;
-    height: 35px;
-    color: white;
+    
     font-weight: bold;
 }
 
@@ -45,7 +48,7 @@ header img {
 }
 
 .branco { 
-color: white;
+    color: white;
 }
 
 .conteudo section div p {
@@ -64,9 +67,9 @@ color: white;
 }
 
 main {
-    padding: 15px;
-
     display: flex;
+    
+    padding: 15px;
 }
 
 .lista {
@@ -86,6 +89,7 @@ main {
 }
 
 aside {
-    background-color: white;
     height: 100%;
+    
+    background-color: white;
 }
